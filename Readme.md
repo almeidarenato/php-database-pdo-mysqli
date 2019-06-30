@@ -12,7 +12,7 @@ https://www.php.net/manual/pt_BR/class.mysqli.php
 
 https://www.php.net/manual/pt_BR/class.pdo.php
 
-### Whatelse
+### What else
 
 Anexei o dump da base de dados usada no exemplo.
 
