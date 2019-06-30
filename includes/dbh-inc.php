@@ -4,8 +4,8 @@ $dbUserName = 'root';
 $dbPassword = 'root';
 $dbName = 'loginsystem';
 
-// utilizando prepared statement
-//$conn = mysqli_connect($dbServerName, $dbUserName, $dbPassword, $dbName);
+// utilizando MYSQLI- basta descomentar a linha abaixo
+$conn = mysqli_connect($dbServerName, $dbUserName, $dbPassword, $dbName);
 
 //utilizando PDO
 try {

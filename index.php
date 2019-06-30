@@ -17,7 +17,7 @@ include_once 'includes/dbh-inc.php';
   <section>
     <div>
       <h1>Teste de conexão com base de dados em PHP</h1>
-      <h2> Utilizando Prepared Statements </h2>
+      <h2> Utilizando MYSQLI </h2>
 
       <?php
       $sql = 'SELECT * FROM users';
@@ -36,28 +36,31 @@ include_once 'includes/dbh-inc.php';
               <th>Ativo</th>
             </tr>
           </thead>
-          <?php
-          // verifica se o numero de linhas retornado é maior que 1 
+          <tbody>
+            <?php
+            // verifica se o numero de linhas retornado é maior que 1 
 
-          while ($row = mysqli_fetch_assoc($result)) {
-            ?>
-            <tbody>
+            while ($row = mysqli_fetch_assoc($result)) {
+              ?>
+
               <tr>
                 <td scope=" row "><?php echo $row['id'] ?></td>
                 <td><?php echo $row['login'] ?></td>
                 <td><?php echo $row['nivel_acesso'] ?></td>
                 <td><?php echo $row['ativo'] ?></td>
               </tr>
-            </tbody>
-          <?php }
-        }
-        ?>
+
+            <?php }
+          }
+          ?>
+        </tbody>
       </table>
     </div>
   </section>
   <section>
     <div>
       <h2> Utilizando PDO </h2>
+      <p> apenas apliquei um filtro =1 na coluna <b>ativo</b> </p>
       <table>
         <?php
         $query = 'SELECT * FROM users WHERE ativo=:ativo';
