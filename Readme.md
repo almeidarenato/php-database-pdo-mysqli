@@ -1,6 +1,6 @@
 # PHP DB Connection -> MySQLI and PDO
 
-Exemplo utilizando a conexão ao banco de dados **Mysql** fazendo exemplos com **MYSQLI** (comentado) e **PDO** - PHP Database Object .
+Exemplo utilizando a conexão ao banco de dados **Mysql** fazendo exemplos com **MYSQLI** e **PDO** - PHP Database Object .
 
 ## Documentação
 
