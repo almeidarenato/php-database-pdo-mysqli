@@ -6,11 +6,11 @@ Exemplo utilizando a conexão ao banco de dados **Mysql** fazendo exemplos com *
 
 ### MYSQLI
 
-    https://www.php.net/manual/pt_BR/class.mysqli.php
+https://www.php.net/manual/pt_BR/class.mysqli.php
 
 ### PDO
 
-    https://www.php.net/manual/pt_BR/class.pdo.php
+https://www.php.net/manual/pt_BR/class.pdo.php
 
 ### Whatelse
 
